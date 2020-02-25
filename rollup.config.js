@@ -23,6 +23,6 @@ const compile = (input, file) => ({
 });
 
 export default [
-  compile("src/index.tsx", "public/dist/index.js"),
-  compile("src/pwa.tsx", "public/dist/pwa.js")
+  compile("src/index.tsx", "docs/dist/index.js"),
+  compile("src/pwa.tsx", "docs/dist/pwa.js")
 ];

@@ -1,8 +1,6 @@
 //This is the service worker with the Advanced caching
 const CACHE = "my-apprun-site";
 const precacheFiles = [
-  "sw.js",
-  "sw-config.js",
   "index.html",
   "dist/index.js",
   "dist/pwa.js"
