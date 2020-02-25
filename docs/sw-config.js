@@ -13,6 +13,7 @@ const offlineFallbackPage = "offline.html";
 const networkFirstPaths = [
   /* Add an array of regex of paths that should go network first */
   // Example: /\/api\/.*/
+  "index.html",
   /\/dist\/.*/
 ];
 
