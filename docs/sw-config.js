@@ -2,8 +2,7 @@
 const CACHE = "my-apprun-site";
 const precacheFiles = [
   "index.html",
-  "dist/index.js",
-  "dist/pwa.js"
+  "dist/index.js"
   // "style.css"
 ];
 
